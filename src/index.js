@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 
@@ -9,3 +11,5 @@ ReactDOM.render(
 );
 
 module.hot.accept();
+
+/* eslint-disable */
