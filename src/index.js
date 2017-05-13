@@ -29,7 +29,7 @@ const tracks = [
 const store = configureStore();
 store.dispatch(actions.setTracks(tracks));
 
-const history = syncHistoryWithStore(browserHistory, store);
+const history = syncHistoryWithStore(browserHistory, store)
 
 ReactDOM.render(
   <Provider store={store}>
